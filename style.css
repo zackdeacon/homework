@@ -1,0 +1,201 @@
+/* sets the overall layout for the webpage  */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Set to change the background to white  */
+body {
+    background-color: #d9dcd6;
+}
+/* Used to change the header size and font  */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Controls "Hori" in Horiseon header  */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Controls "Seo" in Horiseon header  */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Controls three hyperlinks in the header  */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* removes the billeted format of the list in the header  */
+.header div ul {
+    list-style-type: none;
+}
+/* determines structure for the header hyperlinks element boxes  */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* color for the hyperlinks  */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* font size for the paragraphs */
+p {
+    font-size: 16px;
+}
+/* defines the cover image below header  */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* used to push images to left of screen below cover image  */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* used to push images to right of screen below cover image  */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* container for three blocks of main content (Search engine optimization, online rep management, social media marketing) */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* container for rightmost block of content on main page  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* used to classify "lead generation" section of rightmost content  */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* used to classify "Brand Awareness" section of rightmost content  */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* used to classify "cost management" section of rightmost content  */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* used to classify "lead generation" header of rightmost content  */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* used to classify "Brand awareness" header of rightmost content  */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* used to classify "cost management" header of rightmost content  */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* used to classify "lead generation" image of rightmost content  */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* used to classify "Brand awareness" image of rightmost content  */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* used to classify "cost management" image of rightmost content  */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* used to define the container of information regarding search engine optimization  */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* used to define the container of information regarding online rep management  */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* used to define the container of information regarding social media marketing  */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* used to define the height of the image search engine optimization  */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* used to define the height of the image online rep management  */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* used to define the height of the image social media marketing  */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* used to define the header for search engine optimization  */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* used to define the header for online rep management */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* used to define the header for social media marketing  */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* used to define the spacing and alignment in the footer  */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* used to define the size of the header tag in the footer  */
+.footer h2 {
+    font-size: 20px;
+}
